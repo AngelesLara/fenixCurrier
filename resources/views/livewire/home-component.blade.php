@@ -1,0 +1,3 @@
+<div>
+    HOLA MUNDO DESDE LARAVEL LIVEWIRE
+</div>
