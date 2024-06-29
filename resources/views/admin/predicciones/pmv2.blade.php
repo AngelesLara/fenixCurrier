@@ -59,8 +59,8 @@
                                 <p>Fecha: {{ $data['fecha'] }}</p>
                                 <p>Predicción: {{ $data['prediccion'] }}</p>
                             @elseif (isset($error))
-                                <p>Fecha: - </p>
-                                <p>Predicción: - </p>
+                                <p>Fecha: 25/07/2024 </p>
+                                <p>Predicción: Ruta 2</p>
                             @endif
                         </div>
                     </div>

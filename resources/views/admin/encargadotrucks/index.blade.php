@@ -87,7 +87,7 @@
                                         @endphp
                                     </td>
                                     <td>{{ $enctruck->truck->truPlaca }}</td>
-                                    <td>{{ $enctruck->empleado->empNombre }}</td>
+                                    <td>{{ $enctruck->empleado->empNombre ?? '' }}</td>
                                     @can('admin.encargadotrucks.edit')
                                         <td width="10px">
                                             <a class="btn btn-primary"

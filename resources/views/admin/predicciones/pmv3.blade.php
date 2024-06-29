@@ -75,8 +75,15 @@
                         <div class="card-body">
                             <h1 class="text-center">Predicciones</h1>
                             @if (isset($data))
-                                <p>Predicción: {{ $data['prediction'] }}</p>
-                                <p>Probabilidad: {{ $data['probability'] }}</p>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3 class="text-center">Predicción: {{ $data['prediction'] }}</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p class="text-center">1: Abandona</p>
+                                        <p class="text-center">0: No abandona</p>
+                                    </div>
+                                </div>
                             @elseif (isset($error))
                                 <p>Predicción: - </p>
                                 <p>Probabilidad: - </p>

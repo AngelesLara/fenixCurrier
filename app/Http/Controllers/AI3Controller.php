@@ -21,7 +21,7 @@ class AI3Controller extends Controller
         $number_of_complaints = $request->input('number_of_complaints');
 
         // Realizar la solicitud GET a la API con los parámetros proporcionados
-        $response = Http::get('https://2069-35-243-172-170.ngrok-free.app/predict?', [
+        $response = Http::get('https://67d2-34-69-185-218.ngrok-free.app/predict?', [
             'num_envios' => $num_envios,
             'total_monto_envios' => $total_monto_envios,
             'dias_ultimo_envio' => $dias_ultimo_envio,

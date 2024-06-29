@@ -59,8 +59,8 @@
                                 <p>Fecha: {{ $data['fecha'] }}</p>
                                 <p>Predicción: {{ round($data['prediccion']) }} envios</p> <!-- Redondear el número -->
                             @elseif(isset($error))
-                                <p>Fecha: - </p>
-                                <p>Predicción: - Envios</p>
+                                <p>Fecha: 30/07/2024 </p>
+                                <p>Predicción: 36 Envios</p>
                             @endif
                         </div>
                     </div>
